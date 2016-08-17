@@ -12,67 +12,31 @@
 function run(msg)
 local reply_id = msg['id']
 if msg.text == "سلام" and is_sudo(msg) then
-local text = "سلام بابا😍"
+local text = "سلام مامان😍"
  reply_msg(reply_id, text, ok_cb, false)
 end
 if msg.text == "سلم" and is_sudo(msg) then
-local text = "سلام بابا😍"
+local text = "سلام مامان😍"
  reply_msg(reply_id, text, ok_cb, false)
 end
 if msg.text == "ربات" and is_sudo(msg) then
-local text = "جانم بابا😍"
+local text = "جانم مامان😍"
  reply_msg(reply_id, text, ok_cb, false)
 end
 if msg.text == "خدافظ" and is_sudo(msg) then
-local text = "خدافظ بابا😍"
+local text = "خدافظ مامان😍"
  reply_msg(reply_id, text, ok_cb, false)
 end
 if msg.text == "بای" and is_sudo(msg) then
-local text = "خدافظ  بابا😍"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "کوسیشر" and is_sudo(msg) then
-local text = "چي کوسيشره بابايي جونم؟😘"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "گاوکوس" and is_sudo(msg) then
-local text = "کي گاوکوسه بابايي جونم؟😍"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "ژوپیتر" and is_sudo(msg) then
-local text = "جانم بابا😘"
+local text = "خدافظ  مامان😍"
  reply_msg(reply_id, text, ok_cb, false)
 end
 if msg.text == "س" and is_sudo(msg) then
-local text = "سلام بابا😘"
+local text = "سلام مامانی😘"
  reply_msg(reply_id, text, ok_cb, false)
 end
-if msg.text == "ژوپیتر" then
-local text = "هوم؟سريع بگو کار دارم!😐"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "پویا" then
-local text = "ميتوني بنالي کارتو به باباييم ميگم!😕😕"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "عرفان" then
-local text = "ميتوني بنالي کارتو به باباييم ميگم!😕😕"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "ربات" then
-local text = "بنال😐"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "s" then
-local text = "سلام درست بده گشاد😐"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "کوسیشر" then
-local text = "تيکه کلام بابامو نگو زدم گايدمتا😐😐!"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "مهندس" then
-local text = "بابام نيستش اومد وقت داشت جوابتو ميده😂"
+if msg.text == "مهسا" then
+local text = "ميتوني بنالي کارتو به مامانیم ميگم!😕😕"
  reply_msg(reply_id, text, ok_cb, false)
 end
 end
@@ -87,12 +51,7 @@ return {
   "^خدافظ$",
   "^بای$",
   "^خوبی؟$",
-  "^گاوکوس$",
-  "^ژوپیتر$",
-  "^پویا$",
-  "^عرفان$",
-  "^کوسیشر$",
-  "^مهندس$"
+  "^مهسا$",
   },
 run = run,
     --privileged = true,

@@ -44,7 +44,7 @@ function run(msg, matches)
 🔹res (id)
 〰〰〰〰〰〰〰
 ☑️for get other behest plz send tools parameter
-©#JoveTG V1.3
+©#TitanZeus V2.0
 ♦️Zeus Team♦️
 ]]
 end

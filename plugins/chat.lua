@@ -12,131 +12,83 @@
 function run(msg)
 local reply_id = msg['id']
 if msg.text == "hi" and is_sudo(msg) then
-local text = "Hi Dad❤"
+local text = "Hi Mom❤"
  reply_msg(reply_id, text, ok_cb, false)
 end
 if msg.text == "Hi" and is_sudo(msg) then
-local text = "Hi Dad❤"
+local text = "Hi Mom❤"
  reply_msg(reply_id, text, ok_cb, false)
 end
 if msg.text == "Hello" and is_sudo(msg) then
-local text = "Hi Dad❤"
+local text = "Hi Mom❤"
  reply_msg(reply_id, text, ok_cb, false)
 end
 if msg.text == "hello" and is_sudo(msg) then
-local text = "Hi Dad❤"
+local text = "Hi Mom❤"
  reply_msg(reply_id, text, ok_cb, false)
 end
 if msg.text == "Bot" and is_sudo(msg) then
-local text = "Yes Dad❤?"
+local text = "Yes Mom❤?"
  reply_msg(reply_id, text, ok_cb, false)
 end
 if msg.text == "bot" and is_sudo(msg) then
-local text = "Yes Dad❤?"
+local text = "Yes Mom❤?"
  reply_msg(reply_id, text, ok_cb, false)
 end
 if msg.text == "bye" and is_sudo(msg) then
-local text = "Bye Dad❤"
+local text = "Bye Mom❤"
  reply_msg(reply_id, text, ok_cb, false)
 end
 if msg.text == "Bye" and is_sudo(msg) then
-local text = "Bye Dad❤"
+local text = "Bye Mom❤"
  reply_msg(reply_id, text, ok_cb, false)
 end
 if msg.text == "?" and is_sudo(msg) then
-local text = "Yes Dad❤?"
+local text = "Yes MomMom❤?"
  reply_msg(reply_id, text, ok_cb, false)
 end
 if msg.text == "؟" and is_sudo(msg) then
-local text = "Yes Dad❤?"
+local text = "Yes Mom❤?"
  reply_msg(reply_id, text, ok_cb, false)
 end
 if msg.text == "Salam" and is_sudo(msg) then
-local text = "Hi Dad❤"
+local text = "Hi Mom❤"
  reply_msg(reply_id, text, ok_cb, false)
 end
 if msg.text == "salam" and is_sudo(msg) then
-local text = "Hi Dad❤"
+local text = "Hi Mom❤"
  reply_msg(reply_id, text, ok_cb, false)
 end
 if msg.text == "Slm" and is_sudo(msg) then
-local text = "Hi Dad❤"
+local text = "Hi Mom❤"
  reply_msg(reply_id, text, ok_cb, false)
 end
 if msg.text == "slm" and is_sudo(msg) then
-local text = "Hi Dad❤"
+local text = "Hi Mom❤"
  reply_msg(reply_id, text, ok_cb, false)
 end
-if msg.text == "jove" and is_sudo(msg) then
-local text = "Yes Dad❤?"
+if msg.text == "zues" and is_sudo(msg) then
+local text = "Yes Mom❤?"
  reply_msg(reply_id, text, ok_cb, false)
 end
-if msg.text == "Jove" and is_sudo(msg) then
-local text = "Yes Dad❤?"
+if msg.text == "Zeus" and is_sudo(msg) then
+local text = "Yes Mom❤?"
  reply_msg(reply_id, text, ok_cb, false)
 end
 if msg.text == "s" and is_sudo(msg) then
-local text = "Hi Dad❤"
+local text = "Hi Mom❤"
  reply_msg(reply_id, text, ok_cb, false)
 end
 if msg.text == "S" and is_sudo(msg) then
-local text = "Hi Dad❤"
+local text = "Hi Mom❤"
  reply_msg(reply_id, text, ok_cb, false)
 end
-if msg.text == "jove" then
-local text = "Ha?Benal😐"
+if msg.text == "Mahsa" then
+local text = "Bego Be Momy migam😐"
  reply_msg(reply_id, text, ok_cb, false)
 end
-if msg.text == "Jove" then
-local text = "Ha?Benal😐"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "Pouya" then
-local text = "Benal Be dadi migam😐"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "pouya" then
-local text = "Benal Be dadi migam😐"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "Erfan" then
-local text = "Benal Be dadi migam😐"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "erfan" then
-local text = "Benal Be dadi migam😐"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "Bot" then
-local text = "Benal😐"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "bot" then
-local text = "Benal😐"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "S" then
-local text = "Dorost Salam Bede Goshad😐"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "s" then
-local text = "Dorost Salam Bede Goshad😐"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "?" then
-local text = "Benal😐"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "؟" then
-local text = "Benal😐"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "poya" then
-local text = "Benal Be dadi migam😐"
- reply_msg(reply_id, text, ok_cb, false)
-end
-if msg.text == "Poya" then
-local text = "Benal Be dadi migam😐"
+if msg.text == "mahsa" then
+local text = "Bego Be Momy migam😐"
  reply_msg(reply_id, text, ok_cb, false)
 end
 end
@@ -153,11 +105,8 @@ return {
   "^؟$",
   "^[Ss]alam$",
   "^[Ss]lm$",
-  "^[Jj]ove$",
-  "^[Pp]ouya$",
-  "^[Ee]rfan$",
-  "^[Pp]oya$",
-  "^[Ss]$"
+  "^[Zz]eus$",
+  "^[Mm]ahsa$",
   },
  run = run,
     --privileged = true,
